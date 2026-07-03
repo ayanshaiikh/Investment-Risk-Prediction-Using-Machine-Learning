@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Investment risk assessment is one of the most critical aspects of financial decision-making. Traditional risk evaluation methods rely heavily on manual financial analysis and expert judgment, making them time-consuming and subjective.
 
@@ -18,7 +18,7 @@ The project also introduces a **Risk Score Generation System**, converting class
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 - Develop an intelligent investment risk prediction system.
 - Compare multiple machine learning algorithms.
@@ -30,18 +30,18 @@ The project also introduces a **Risk Score Generation System**, converting class
 
 # 💡 Key Features
 
-- 📊 Investment Risk Prediction
-- 🤖 Machine Learning Classification
-- 🌲 Random Forest Model
-- 📈 Financial Indicator Analysis
-- 🔍 SHAP Explainable AI
-- 📉 Risk Score Generation
-- 📑 Research Paper Included
-- 📘 Complete Project Report Included
+-  Investment Risk Prediction
+-  Machine Learning Classification
+-  Random Forest Model
+-  Financial Indicator Analysis
+-  SHAP Explainable AI
+-  Risk Score Generation
+-  Research Paper Included
+-  Complete Project Report Included
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 **Dataset Used:**
 
@@ -51,7 +51,7 @@ The dataset contains financial information of companies, including profitability
 
 ---
 
-# ⚙️ Technologies Used
+#  Technologies Used
 
 - Python
 - Google Colab
@@ -63,7 +63,7 @@ The dataset contains financial information of companies, including profitability
 
 ---
 
-# 🧠 Machine Learning Models
+#  Machine Learning Models
 
 The following models were implemented and compared:
 
@@ -75,7 +75,7 @@ After evaluation, **Random Forest** achieved the best overall performance and wa
 
 ---
 
-# 📊 Model Performance
+#  Model Performance
 
 | Model | Accuracy |
 |--------|----------|
@@ -83,11 +83,11 @@ After evaluation, **Random Forest** achieved the best overall performance and wa
 | Decision Tree | **94.79%** |
 | Random Forest | **96.63%** |
 
-✅ Random Forest demonstrated the highest prediction accuracy while providing robust performance for financial risk classification.
+ Random Forest demonstrated the highest prediction accuracy while providing robust performance for financial risk classification.
 
 ---
 
-# 🔄 Project Workflow
+#  Project Workflow
 
 ```
 Financial Dataset
@@ -119,7 +119,7 @@ Final Investment Risk Analysis
 
 ---
 
-# 📈 Results
+#  Results
 
 The developed system successfully predicts investment risk using financial indicators with high accuracy. SHAP analysis provides clear explanations of model predictions, allowing users to understand how each financial indicator influences the investment risk.
 
@@ -132,7 +132,7 @@ Key findings include:
 
 ---
 
-# 📷 Project Visualizations
+#  Project Visualizations
 
 This repository includes:
 
@@ -145,7 +145,7 @@ This repository includes:
 
 ---
 
-# 📄 Research Paper
+#  Research Paper
 
 This repository also contains the complete IEEE research paper based on this project.
 
@@ -155,7 +155,7 @@ This repository also contains the complete IEEE research paper based on this pro
 
 ---
 
-# 📚 Project Report
+#  Project Report
 
 A detailed academic project report explaining:
 
@@ -170,7 +170,7 @@ is included in this repository.
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Future enhancements may include:
 
@@ -184,7 +184,7 @@ Future enhancements may include:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Ayan Shaikh**
 
@@ -194,6 +194,6 @@ Vishwakarma University, Pune
 
 ---
 
-# ⭐ If you found this project useful
+#  If you found this project useful
 
 Please consider giving this repository a ⭐ on GitHub.
