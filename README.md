@@ -1,77 +1,89 @@
-# 📈 Data-Driven Investment Risk Prediction Using Machine Learning and SHAP-Based Interpretability
+# Data-Driven Investment Risk Prediction Using Machine Learning and SHAP-Based Interpretability
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+<p align="center">
 
----
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
+![SHAP](https://img.shields.io/badge/Explainable%20AI-SHAP-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-##  Project Overview
-
-Investment risk assessment is one of the most critical aspects of financial decision-making. Traditional risk evaluation methods rely heavily on manual financial analysis and expert judgment, making them time-consuming and subjective.
-
-This project presents a **machine learning-based investment risk prediction system** that analyzes financial indicators of companies to classify investment risk. The proposed system compares multiple machine learning algorithms and employs **SHAP (SHapley Additive exPlanations)** to improve model transparency by explaining the contribution of each financial feature towards prediction.
-
-The project also introduces a **Risk Score Generation System**, converting classification results into an easy-to-understand numerical score for practical investment analysis.
+</p>
 
 ---
 
-#  Objectives
+# Overview
 
-- Develop an intelligent investment risk prediction system.
-- Compare multiple machine learning algorithms.
-- Identify the best-performing prediction model.
+Investment risk assessment plays a vital role in financial decision-making. Traditional methods depend heavily on manual financial analysis, making the process time-consuming, subjective, and difficult to scale.
+
+This project presents a **Machine Learning-based Investment Risk Prediction System** that analyzes financial indicators to classify investment risk accurately. The system compares multiple machine learning algorithms and integrates **SHAP (SHapley Additive exPlanations)** to provide transparent and interpretable predictions.
+
+Additionally, the project introduces a **Risk Score Generation System**, converting prediction results into numerical scores that simplify investment analysis and decision-making.
+
+---
+
+# Objectives
+
+- Develop a machine learning framework for investment risk prediction.
+- Compare multiple classification algorithms.
+- Identify the most accurate prediction model.
 - Improve prediction transparency using Explainable AI (SHAP).
-- Generate numerical risk scores for better financial decision-making.
+- Generate numerical investment risk scores.
+- Analyze the contribution of important financial indicators.
 
 ---
 
-# 💡 Key Features
+# Key Features
 
 -  Investment Risk Prediction
 -  Machine Learning Classification
--  Random Forest Model
+-  Random Forest Classifier
 -  Financial Indicator Analysis
 -  SHAP Explainable AI
 -  Risk Score Generation
--  Research Paper Included
+-  IEEE Research Paper Included
 -  Complete Project Report Included
-
----
-
-#  Dataset
-
-**Dataset Used:**
-
-Polish Companies Bankruptcy Dataset
-
-The dataset contains financial information of companies, including profitability, liquidity, leverage, and operational indicators used to classify investment risk.
 
 ---
 
 #  Technologies Used
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- SHAP (Explainable AI)
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| Development Platform | Google Colab |
+| Data Processing | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Data Visualization | Matplotlib |
+| Explainable AI | SHAP |
+
+---
+
+#  Dataset
+
+**Dataset Used:** Polish Companies Bankruptcy Dataset
+
+The dataset contains financial information collected from companies over multiple years. It includes profitability, liquidity, leverage, operational performance indicators, and bankruptcy labels.
+
+The dataset is widely used for:
+
+- Bankruptcy Prediction
+- Financial Risk Analysis
+- Investment Risk Prediction
+- Machine Learning Classification
 
 ---
 
 #  Machine Learning Models
 
-The following models were implemented and compared:
+The following algorithms were implemented and compared:
 
 - Logistic Regression
 - Decision Tree
 - Random Forest
 
-After evaluation, **Random Forest** achieved the best overall performance and was selected as the final model.
+Among these models, **Random Forest** achieved the best overall performance.
 
 ---
 
@@ -83,29 +95,35 @@ After evaluation, **Random Forest** achieved the best overall performance and wa
 | Decision Tree | **94.79%** |
 | Random Forest | **96.63%** |
 
- Random Forest demonstrated the highest prediction accuracy while providing robust performance for financial risk classification.
+ **Random Forest** demonstrated the highest prediction accuracy while maintaining excellent robustness and stability.
 
 ---
 
-#  Project Workflow
+# 🔄 Project Workflow
 
-```
+```text
 Financial Dataset
         │
         ▼
 Data Preprocessing
         │
         ▼
-Feature Scaling & Cleaning
+Feature Scaling
         │
         ▼
 Train-Test Split (80:20)
         │
         ▼
 Machine Learning Models
+(Logistic Regression,
+Decision Tree,
+Random Forest)
         │
         ▼
-Prediction
+Model Evaluation
+        │
+        ▼
+Risk Prediction
         │
         ▼
 Risk Score Generation
@@ -114,86 +132,194 @@ Risk Score Generation
 SHAP Explainability
         │
         ▼
-Final Investment Risk Analysis
+Final Investment Risk Assessment
 ```
-
----
-
-#  Results
-
-The developed system successfully predicts investment risk using financial indicators with high accuracy. SHAP analysis provides clear explanations of model predictions, allowing users to understand how each financial indicator influences the investment risk.
-
-Key findings include:
-
-- Random Forest achieved the highest accuracy (96.63%).
-- Financial leverage and profitability indicators significantly influence investment risk.
-- SHAP improves transparency and interpretability.
-- Numerical risk scoring enhances practical usability.
 
 ---
 
 #  Project Visualizations
 
-This repository includes:
+##  System Architecture
 
-- System Architecture
-- Process Flow Diagram
-- Model Accuracy Comparison
-- Feature Importance Analysis
-- SHAP Summary Plot
-- Risk Score Distribution
+<p align="center">
+<img src="System_architecture.png" width="900">
+</p>
+
+---
+
+##  Process Flow Diagram
+
+<p align="center">
+<img src="process_flow_diagram.png" width="900">
+</p>
+
+---
+
+##  Model Accuracy Comparison
+
+<p align="center">
+<img src="Model_accuracy_comparison.png" width="800">
+</p>
+
+---
+
+##  Feature Importance Analysis
+
+<p align="center">
+<img src="feature_importance_1.png" width="700">
+</p>
+
+---
+
+##  Top Financial Indicators
+
+<p align="center">
+<img src="feature_importance_2.png" width="700">
+</p>
+
+---
+
+##  Investment Risk Score Distribution
+
+<p align="center">
+<img src="risk_score_distribution.png" width="700">
+</p>
+
+---
+
+##  SHAP Summary Plot
+
+<p align="center">
+<img src="shap_summary_plot.png" width="800">
+</p>
+
+---
+
+#  Key Findings
+
+- Random Forest achieved the highest prediction accuracy (**96.63%**).
+- Financial profitability and leverage indicators significantly influence investment risk.
+- SHAP improves model transparency by explaining prediction decisions.
+- Risk Score Generation enhances practical usability.
+- The proposed system provides reliable investment risk assessment using financial indicators.
 
 ---
 
 #  Research Paper
 
-This repository also contains the complete IEEE research paper based on this project.
+This repository includes the complete IEEE research paper based on this project.
 
-**Paper Title**
+### **Paper Title**
 
-> **Data-Driven Investment Risk Prediction Using Machine Learning and SHAP-Based Interpretability**
+**Data-Driven Investment Risk Prediction Using Machine Learning and SHAP-Based Interpretability**
 
 ---
 
 #  Project Report
 
-A detailed academic project report explaining:
+A comprehensive academic project report is included, covering:
 
 - Introduction
+- Industry & Company Profile
 - Literature Review
-- Methodology
+- Research Methodology
 - Data Analysis
 - Results
 - Conclusion
 
-is included in this repository.
+---
+
+#  Repository Structure
+
+```text
+Investment-Risk-Prediction-Using-Machine-Learning
+│
+├── README.md
+├── Risk_assessment_model.ipynb
+├── requirements.txt
+├── LICENSE
+├── IEEE_research_paper.pdf
+├── Minor_project_report.docx
+│
+├── System_architecture.png
+├── process_flow_diagram.png
+├── Model_accuracy_comparison.png
+├── feature_importance_1.png
+├── feature_importance_2.png
+├── risk_score_distribution.png
+└── shap_summary_plot.png
+```
 
 ---
 
-#  Future Improvements
+#  How to Run
 
-Future enhancements may include:
+### 1. Clone the Repository
 
-- Real-time stock market integration
-- Deep Learning-based prediction
-- Web application deployment
-- Live financial dashboard
-- API integration
-- Cloud deployment
-- Portfolio recommendation system
+```bash
+git clone https://github.com/ayanshaikh/Investment-Risk-Prediction-Using-Machine-Learning.git
+```
+
+### 2. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open the Notebook
+
+Run:
+
+```
+Risk_assessment_model.ipynb
+```
+
+using **Google Colab** or **Jupyter Notebook**.
+
+---
+
+#  Future Enhancements
+
+- Real-time financial data integration
+- Deep Learning models
+- Stock market prediction
+- Streamlit Web Application
+- Cloud Deployment
+- Portfolio Recommendation System
+- REST API Integration
+
+---
+
+#  Citation
+
+If you use this project for academic or research purposes, please cite:
+
+> **Ayan Shaikh, Anushka Pardeshi, Dr. Karthika P. Devan**
+>
+> *Data-Driven Investment Risk Prediction Using Machine Learning and SHAP-Based Interpretability.*
 
 ---
 
 #  Author
 
-**Ayan Shaikh**
+## **Ayan Shaikh**
 
-Bachelor of Computer Science
+ Bachelor of Computer Science
 
-Vishwakarma University, Pune
+ Vishwakarma University, Pune
+
+ Machine Learning | Artificial Intelligence | Data Science | Python
 
 ---
 
-#  If you found this project useful
+#  Support
 
-Please consider giving this repository a ⭐ on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future development.
+
+---
+
+##  Acknowledgement
+
+This project was developed as part of the Minor Project at **Vishwakarma University** under the guidance of **Dr. Karthika P. Devan**. The project explores the application of machine learning and explainable AI techniques for improving investment risk assessment using financial data.
